@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="↑"
+        android:onClick="moveUp"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="↓"
+        android:onClick="moveDown"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="TOP"
+        android:onClick="moveTop"/>
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="BOTTOM"
+        android:onClick="moveBottom"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="SAVE"
+        android:onClick="save"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="\?"
+        android:onClick="help"/>
+</LinearLayout>

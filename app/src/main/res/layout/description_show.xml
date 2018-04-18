@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="goBack"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/showDesc"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_above="@+id/dsc"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/dsc"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btt"
+        />
+    <Button
+        android:id="@+id/btt"
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="edit"
+        android:text="EDIT"></Button>
+</RelativeLayout>
