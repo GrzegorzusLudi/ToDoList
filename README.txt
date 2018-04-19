@@ -1,3 +1,3 @@
-﻿A simple TODO list (project for studies).
+﻿A simple TODO list (project for studies) with changing the position of notes on list.
 
-Made in Android Studio. The repository contains only "apps" directory. Other directories are the same as in basic project.
+Made in Android Studio.
